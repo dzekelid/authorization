@@ -29,7 +29,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-authorizationrulename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-authorizationrulename-get.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
