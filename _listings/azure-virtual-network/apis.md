@@ -26,7 +26,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-expressroutecircuits-circuitname-authorizations-authorizationname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-expressroutecircuits-circuitname-authorizations-authorizationname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
