@@ -27,7 +27,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-authorizationrules-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-authorizationrules-authorizationrulename-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/
