@@ -25,7 +25,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-notificationhubs-notificationhubname-authorizationrules-authorizationrulename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-notificationhubs-notificationhubname-authorizationrules-authorizationrulename-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/rest/api/notificationhubs
