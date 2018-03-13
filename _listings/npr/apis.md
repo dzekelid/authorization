@@ -30,7 +30,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/npr/authorization-v2-device-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/npr/authorization-v2-token-post.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
