@@ -13,9 +13,9 @@ tags:
 - Relay
 - Proxy
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-relay/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Relay API
@@ -29,7 +29,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-wcfrelays-relayname-authorizationrules-authorizationrulename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-get.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
