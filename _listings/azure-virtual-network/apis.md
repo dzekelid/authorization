@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Network
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-virtual-network/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-virtual-network/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Virtual Network API
@@ -26,7 +26,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-expressroutecircuits-circuitname-authorizations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-expressroutecircuits-circuitname-authorizations-authorizationname-delete.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
