@@ -17,9 +17,9 @@ tags:
 - Getting Started
 - Federal Government
 - Broadcasting
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/npr/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/npr/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: NPR
@@ -30,7 +30,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/npr/authorization-v2-token-revoke-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/npr/authorization-v2-authorize-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
