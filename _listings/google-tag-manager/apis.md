@@ -13,9 +13,9 @@ tags:
 - Tags
 - Stack Network
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/google-tag-manager/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/google-tag-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Tag Manager API
@@ -27,7 +27,7 @@ apis:
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/authorization/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-reauthorize-environments-environmentid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-reauthorize-environments-environmentid-put.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/tag-manager/api/v1/authorization
