@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Registry API
+  title: AWS EC2 Container Registry API Get Authorization Token
   version: 1.0.0
+  description: Retrieves a token that is valid for a specified registry for 12 hours.
 schemes:
 - http
 produces:
