@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceBusManagementClient
-  description: Azure Service Bus client
+  title: Azure Service Bus API Namespaces List Authorization Rules
+  description: Gets the authorization rules for a namespace.
   version: 1.0.0
 host: management.azure.com
 basePath: /
