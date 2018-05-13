@@ -1,13 +1,20 @@
 ---
 swagger: "2.0"
 info:
-  title: NPR One API Reference
-  description: NPR One is a smart application that brings the best of NPR and Member
-    Station programming, newscasts, podcasts, and stories together to create a new
-    experience for listening. It provides an editor-curated and localized mobile listening
-    experience based on the content the listener chooses, likes, shares, and enjoys.
-    The API provides all of the content and customization in a simple, structured
-    way that is easy for applicationdevelopers to implement.
+  title: NPR Revoke an existing OAuth2 access token
+  description: |-
+    Our implementation follows the proposed IETF specification [RFC-7009](https://tools.ietf.org/html/rfc7009).
+
+    If your client application offers the ability to for a logged-in user to log out, and you have access to a long-lived
+    `client_credentials` token (i.e. you have generated one that you are storing securely for the lifetime of the entire app
+    install), we suggest (but do not require) that you call this endpoint and revoke the access token belonging to the
+    logged-in user as part of your logout process. If you do not already have a long-lived `client_credentials` token,
+    please don't generate one just for the purposes of calling this endpoint.
+
+    If you are building a prototype application, we also recommend that you use this endpoint to clean up access tokens
+    that you generate during the testing of your app and do not intend to reuse.
+
+    Note that revoking an access token will automatically revoke any refresh tokens associated with it, and vice-versa.
   termsOfService: http://dev.npr.org/develop/terms-of-use
   contact:
     name: NPR One Enterprise Team
