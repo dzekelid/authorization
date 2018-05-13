@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-delete.md
-- name: Azure Service Bus API Topics Get Authorization Rule
-  description: Returns the specified authorization rule.
+- name: Azure Service Bus API Topics Delete Authorization Rule
+  description: Deletes a topic authorization rule.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png
   humanURL: https://azure.microsoft.com/en-us/services/service-bus/
   baseURL: http:://management.azure.com//
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/
