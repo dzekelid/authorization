@@ -1,11 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: NetworkManagementClient
-  description: The Microsoft Azure Network management API provides a RESTful set of
-    web services that interact with Microsoft Azure Networks service to manage your
-    network resources. The API has entities that capture the relationship between
-    an end user and the Microsoft Azure Networks service.
+  title: Azure Virtual Network API Express Route Circuit Authorizations Delete
+  description: Deletes the specified authorization from the specified express route
+    circuit.
   version: 1.0.0
 host: management.azure.com
 basePath: /
