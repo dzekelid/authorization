@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: NotificationHubsManagementClient
-  description: Azure NotificationHub client
+  title: Azure Notification Hubs API Notification Hubs Create Or Update Authorization
+    Rule
+  description: Creates/Updates an authorization rule for a NotificationHub
   version: 1.0.0
 host: management.azure.com
 basePath: /
