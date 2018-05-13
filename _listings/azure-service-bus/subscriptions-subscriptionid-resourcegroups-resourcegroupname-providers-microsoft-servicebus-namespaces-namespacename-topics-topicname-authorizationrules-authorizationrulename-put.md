@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceBusManagementClient
-  description: Azure Service Bus client
+  title: Azure Service Bus API Topics Create Or Update Authorization Rule
+  description: Creates an authorizatio rule for the specified topic.
   version: 1.0.0
 host: management.azure.com
 basePath: /
