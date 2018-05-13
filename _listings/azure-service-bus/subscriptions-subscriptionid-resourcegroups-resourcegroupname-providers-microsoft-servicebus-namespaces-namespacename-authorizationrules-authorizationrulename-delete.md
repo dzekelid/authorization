@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceBusManagementClient
-  description: Azure Service Bus client
+  title: Azure Service Bus API Namespaces Delete Authorization Rule
+  description: Deletes a namespace authorization rule.
   version: 1.0.0
 host: management.azure.com
 basePath: /
