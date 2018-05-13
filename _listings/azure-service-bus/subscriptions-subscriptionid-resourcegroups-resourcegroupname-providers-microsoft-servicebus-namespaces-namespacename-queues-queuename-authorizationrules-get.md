@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceBusManagementClient
-  description: Azure Service Bus client
+  title: Azure Service Bus API Queues List Authorization Rules
+  description: Gets all authorization rules for a queue.
   version: 1.0.0
 host: management.azure.com
 basePath: /
