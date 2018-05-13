@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Event Hubs List Authorization Rules
+  description: Gets the authorization rules for an Event Hub.
   version: 1.0.0
 host: management.azure.com
 basePath: /
