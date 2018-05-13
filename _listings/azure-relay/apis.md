@@ -30,17 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-wcfrelays-relayname-authorizationrules-authorizationrulename-get.md
-- name: Azure Relay API Hybrid Connections Delete Authorization Rule
-  description: Deletes a HybridConnection authorization rule
+- name: Azure Relay API Hybrid Connections Get Authorization Rule
+  description: HybridConnection authorizationRule for a HybridConnection by name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
   humanURL: ""
   baseURL: http:://management.azure.com//
   tags: Authorization
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-get-postman.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
