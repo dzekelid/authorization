@@ -28,7 +28,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-reauthorize-environments-environmentid-put.md
+- name: Google Tag Manager API Regenerate Authorization
+  description: Re-generates the authorization code for a GTM Environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png
+  humanURL: https://developers.google.com/tag-manager/
+  baseURL: http:://www.googleapis.com//tagmanager/v1
+  tags: Authorization
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authorization/master/_listings/google-tag-manager/accounts-accountid-containers-containerid-reauthorize-environments-environmentid-put.md
 x-common:
+- type: x-authentication
+  url: https://developers.google.com/tag-manager/api/v1/authorization
+- type: x-change-log
+  url: https://developers.google.com/tag-manager/api/v1/changelog
+- type: x-code
+  url: https://developers.google.com/tag-manager/api/v1/libraries
+- type: x-documentation
+  url: https://developers.google.com/tag-manager/api/v1/
+- type: x-performance
+  url: https://developers.google.com/tag-manager/api/v1/performance
+- type: x-website
+  url: https://developers.google.com/tag-manager/
 - type: x-authentication
   url: https://developers.google.com/tag-manager/api/v1/authorization
 - type: x-change-log
