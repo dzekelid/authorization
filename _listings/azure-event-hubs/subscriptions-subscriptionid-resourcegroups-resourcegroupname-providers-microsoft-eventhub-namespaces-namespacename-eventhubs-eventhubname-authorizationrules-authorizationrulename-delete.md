@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Event Hubs Delete Authorization Rule
+  description: Deletes an Event Hub AuthorizationRule.
   version: 1.0.0
 host: management.azure.com
 basePath: /
